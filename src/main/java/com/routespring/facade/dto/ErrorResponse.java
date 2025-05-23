@@ -1,4 +1,5 @@
-package com.routespring.dto;
+package com.routespring.facade.dto;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
