@@ -1,4 +1,17 @@
 # Compiled class file
+# Maven build output
+/target/
+/.classpath
+/.project
+/.settings/
+/.idea/
+/*.iml
+
+# Eclipse-specific files
+/.metadata/
+
+# macOS-specific files
+.DS_Store
 *.class
 
 # Log file
