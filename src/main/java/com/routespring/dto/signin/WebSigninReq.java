@@ -32,65 +32,65 @@ public class WebSigninReq {
 	private String appBuildNumber;
 	@JsonProperty("Referer")
 	private String referer;
-	public String getLoginEmail() {
-		return loginEmail;
-	}
-	public void setLoginEmail(String loginEmail) {
-		this.loginEmail = loginEmail;
-	}
-	public String getLoginPassword() {
-		return loginPassword;
-	}
-	public void setLoginPassword(String loginPassword) {
-		this.loginPassword = loginPassword;
-	}
-	public String getGoogleAccessToken() {
-		return googleAccessToken;
-	}
-	public void setGoogleAccessToken(String googleAccessToken) {
-		this.googleAccessToken = googleAccessToken;
-	}
-	public String getConnectionType() {
-		return connectionType;
-	}
-	public void setConnectionType(String connectionType) {
-		this.connectionType = connectionType;
-	}
-	public String getDataConsentAccepted() {
-		return dataConsentAccepted;
-	}
-	public void setDataConsentAccepted(String dataConsentAccepted) {
-		this.dataConsentAccepted = dataConsentAccepted;
-	}
-	public String getSelectedLanguage() {
-		return selectedLanguage;
-	}
-	public void setSelectedLanguage(String selectedLanguage) {
-		this.selectedLanguage = selectedLanguage;
-	}
-	public String getUtmCampaign() {
-		return utmCampaign;
-	}
-	public void setUtmCampaign(String utmCampaign) {
-		this.utmCampaign = utmCampaign;
-	}
-	public String getPlatform() {
-		return platform;
-	}
-	public void setPlatform(String platform) {
-		this.platform = platform;
-	}
-	public String getAppBuildNumber() {
-		return appBuildNumber;
-	}
-	public void setAppBuildNumber(String appBuildNumber) {
-		this.appBuildNumber = appBuildNumber;
-	}
-	public String getReferer() {
-		return referer;
-	}
-	public void setReferer(String referer) {
-		this.referer = referer;
-	}
-		
+//	public String getLoginEmail() {
+//		return loginEmail;
+//	}
+//	public void setLoginEmail(String loginEmail) {
+//		this.loginEmail = loginEmail;
+//	}
+//	public String getLoginPassword() {
+//		return loginPassword;
+//	}
+//	public void setLoginPassword(String loginPassword) {
+//		this.loginPassword = loginPassword;
+//	}
+//	public String getGoogleAccessToken() {
+//		return googleAccessToken;
+//	}
+//	public void setGoogleAccessToken(String googleAccessToken) {
+//		this.googleAccessToken = googleAccessToken;
+//	}
+//	public String getConnectionType() {
+//		return connectionType;
+//	}
+//	public void setConnectionType(String connectionType) {
+//		this.connectionType = connectionType;
+//	}
+//	public String getDataConsentAccepted() {
+//		return dataConsentAccepted;
+//	}
+//	public void setDataConsentAccepted(String dataConsentAccepted) {
+//		this.dataConsentAccepted = dataConsentAccepted;
+//	}
+//	public String getSelectedLanguage() {
+//		return selectedLanguage;
+//	}
+//	public void setSelectedLanguage(String selectedLanguage) {
+//		this.selectedLanguage = selectedLanguage;
+//	}
+//	public String getUtmCampaign() {
+//		return utmCampaign;
+//	}
+//	public void setUtmCampaign(String utmCampaign) {
+//		this.utmCampaign = utmCampaign;
+//	}
+//	public String getPlatform() {
+//		return platform;
+//	}
+//	public void setPlatform(String platform) {
+//		this.platform = platform;
+//	}
+//	public String getAppBuildNumber() {
+//		return appBuildNumber;
+//	}
+//	public void setAppBuildNumber(String appBuildNumber) {
+//		this.appBuildNumber = appBuildNumber;
+//	}
+//	public String getReferer() {
+//		return referer;
+//	}
+//	public void setReferer(String referer) {
+//		this.referer = referer;
+//	}
+//		
 }
