@@ -1,4 +1,4 @@
-package com.routespring.dto;
+package com.routespring.facade.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
@@ -11,7 +11,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CarSearch {
+public class CarSearchDTO {
 
 	@JsonProperty("pick_lat")
 	private String latitudePickUp;
