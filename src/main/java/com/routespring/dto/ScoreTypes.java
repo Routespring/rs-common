@@ -1,6 +1,11 @@
 package com.routespring.dto;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class ScoreTypes {
 	public static final String SCORETYPE_LABEL_OVERALL = "All";
 	public static final String SCORETYPE_LABEL_PRODUCTIVITY = "Productivity";
@@ -14,6 +19,8 @@ public class ScoreTypes {
 	public static final String SCORETYPE_ID_PRICE = "scoreByPrice";
 	public static final String SCORETYPE_ID_COMFORT = "scoreByComfort";
 
+	@Getter
+	@AllArgsConstructor
 	public enum LabelDefinition {
 		scoreByProductivity(SCORETYPE_LABEL_PRODUCTIVITY, SCORETYPE_ID_PRODUCTIVITY),
 		scoreByPrice(SCORETYPE_LABEL_PRICE, SCORETYPE_ID_PRICE),
@@ -22,11 +29,6 @@ public class ScoreTypes {
 
 		private String label;
 		private String id;
-
-		private LabelDefinition(String label, String id) {
-			this.label = label;
-			this.id = id;
-		}
 
 	}
 

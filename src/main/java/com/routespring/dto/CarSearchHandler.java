@@ -4,6 +4,7 @@ public class CarSearchHandler {
 
 	public enum CarSearchHandlerType {
 		Sabre, TravelPort, PriceLine, Demo;
+		
 
 	}
 
