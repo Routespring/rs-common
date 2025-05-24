@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class ServerResponse {
+public class ServerResponse<T> {
 
 	String userid;
 	String userRole;
@@ -37,6 +37,9 @@ public class ServerResponse {
 
 	@JsonProperty("policySet")
 	private boolean policySet;
+
+	@JsonProperty("data")
+	private T data;
 
 	private String nextStop;
 
