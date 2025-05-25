@@ -1,4 +1,4 @@
-package com.routespring.facade.dto;
+package com.routespring.dto.auth.request;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class WebSigninReq {
+public class WebSigninRequest {
 	@JsonProperty("login_email")
 	private String loginEmail;
 	@JsonProperty("login_password")
