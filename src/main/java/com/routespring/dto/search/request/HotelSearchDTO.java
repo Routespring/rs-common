@@ -1,4 +1,4 @@
-package com.routespring.facade.dto;
+package com.routespring.dto.search.request;
 
 import java.util.List;
 

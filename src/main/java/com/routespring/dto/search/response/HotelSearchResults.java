@@ -1,9 +1,13 @@
-package com.routespring.dto;
+package com.routespring.dto.search.response;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.routespring.dto.AddressDTO;
+import com.routespring.dto.ApprovalRequiredFor;
+import com.routespring.dto.HotelPolicy;
+import com.routespring.dto.HotelResult;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class HotelSearchResponse {
+public class HotelSearchResults {
 	ApprovalRequiredFor approvalRequiredFor = ApprovalRequiredFor.OUT_OF_POLICY_BOOKING;
 	boolean travelPurposeMandatory = false;
 

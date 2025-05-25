@@ -1,8 +1,10 @@
-package com.routespring.dto.signin;
+package com.routespring.dto.search.request;
 
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.routespring.dto.signin.LegRequest;
+import com.routespring.dto.signin.TravellerInputForSearch;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SearchQuery {
+public class FlightSearchDTO {
 	List<LegRequest> requests;
 	String combo;
 	TravellerInputForSearch travellers;

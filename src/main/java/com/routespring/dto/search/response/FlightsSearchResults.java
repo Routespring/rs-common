@@ -1,9 +1,15 @@
-package com.routespring.dto;
+package com.routespring.dto.search.response;
 
 import java.util.List;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.routespring.dto.Airport;
+import com.routespring.dto.ApprovalRequiredFor;
+import com.routespring.dto.FlightPolicy;
+import com.routespring.dto.FlightResultList;
+import com.routespring.dto.ScoringLabels;
+import com.routespring.dto.SearchResultSummary;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

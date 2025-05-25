@@ -1,4 +1,4 @@
-package com.routespring.facade.dto;
+package com.routespring.dto.search.request;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
