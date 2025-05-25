@@ -1,5 +1,7 @@
 package com.routespring.dto.auth.request;
 
+import com.routespring.dto.auth.request.custom.validations.StrongPassword;
+
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -21,6 +23,7 @@ public class ResetPasswordConfirmationRequest {
 	@NotBlank(message = "Old password must not be blank")
 	private String oldPassword;
 
+	@StrongPassword
 	@NotBlank(message = "New password must not be blank")
 	private String newPassword;
 
