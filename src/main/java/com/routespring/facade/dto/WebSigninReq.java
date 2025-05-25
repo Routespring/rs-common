@@ -1,4 +1,4 @@
-package com.routespring.dto.signin;
+package com.routespring.facade.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
