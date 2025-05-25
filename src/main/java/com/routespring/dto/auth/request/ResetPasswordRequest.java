@@ -1,4 +1,4 @@
-package com.routespring.dto.signin;
+package com.routespring.dto.auth.request;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
