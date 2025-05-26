@@ -126,8 +126,8 @@ public class UserInfoDTO {
 
 	private HotelLoyality[] loyalityCards;
 
-	private AlgoVariables userAlgoVariables;
-	private AlgoVariables defaultAlgoVariables;
+//	private AlgoVariables userAlgoVariables;
+//	private AlgoVariables defaultAlgoVariables;
 	private String expensifyPartnerUserId = " ";
 	private String expensifyPartnerSecret = " ";
 	private EmployeeInfo employeeInfo;
