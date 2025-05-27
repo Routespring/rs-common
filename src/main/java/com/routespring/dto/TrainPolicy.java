@@ -13,5 +13,5 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class TrainPolicy extends TravelPolicy {
-	private TraflaTrainClass maxTrainClassAllowed;
+	private TrainClass maxTrainClassAllowed;
 }

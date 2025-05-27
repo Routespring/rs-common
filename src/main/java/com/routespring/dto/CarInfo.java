@@ -23,8 +23,8 @@ public class CarInfo {
 	private String description;
 	@JsonProperty
 	private String traflaVehicleCode;
-	private TraflaCarClass carClass;
-	private TraflaCarType carType;
+	private CarClass carClass;
+	private CarType carType;
 	@JsonProperty
 	private String passengers;
 	@JsonProperty
@@ -73,7 +73,7 @@ public class CarInfo {
 	@JsonProperty
 	private boolean paymentRequired;
 	@JsonProperty
-	private TraflaCarStatus status = TraflaCarStatus.NEW;
+	private CarStatus status = CarStatus.NEW;
 	@JsonProperty
 	private String carMake;
 	@JsonProperty

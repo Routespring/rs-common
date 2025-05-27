@@ -13,8 +13,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class HotelImage {
 
-	private Map<String, List<TraflaImage>> imageByRoomTypes = new HashMap<>();
-	private Map<String, List<TraflaImage>> imagesByHotelTypes = new HashMap<>();
-	private Map<String, List<TraflaImage>> otherImages = new HashMap<>();
+	private Map<String, List<Image>> imageByRoomTypes = new HashMap<>();
+	private Map<String, List<Image>> imagesByHotelTypes = new HashMap<>();
+	private Map<String, List<Image>> otherImages = new HashMap<>();
 
 }

@@ -3,13 +3,13 @@ package com.routespring.dto;
 import lombok.Getter;
 
 @Getter
-public enum TraflaSeatStatusEnum {
+public enum SeatStatusEnum {
 
 	PEN("pending"), FLD("failed"), CNF("CNF");
 
 	private String status;
 
-	private TraflaSeatStatusEnum(String status) {
+	private SeatStatusEnum(String status) {
 		this.status = status;
 	}
 

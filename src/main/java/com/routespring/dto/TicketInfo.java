@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class TraflaTicketInfo {
+public class TicketInfo {
 	public enum TicketInfoStatus {
 		Unticketed, Ticketed, Voided, Refunded, eXchanged, Unknown_Archived_CarrierModified, Unused, Used;
 	}

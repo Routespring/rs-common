@@ -38,10 +38,10 @@ public class HotelInfo extends CommonHotelInfo {
 	private Boolean isHotelAvailableOnTravelport = false;
 
 	@JsonProperty
-	private TraflaRateDetail hotelRateDetail;
+	private RateDetail hotelRateDetail;
 	private Boolean requestGovtRates;
 	private boolean showAAARates = false;
-	private List<TraflaRateDetail> hotelRateList;
+	private List<RateDetail> hotelRateList;
 
 	private Boolean isApprox;
 

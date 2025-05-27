@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class TraflaRateDetail {
+public class RateDetail {
 
 	private String paymentType;
 	private Integer allotment;
@@ -65,9 +65,9 @@ public class TraflaRateDetail {
 
 	private Double serviceFee = 0.0;
 
-	private List<TraflaHotelRateDescription> roomRateDescription;
+	private List<HotelRateDescription> roomRateDescription;
 	private boolean prePay = true;
 	private TravelportCancellationInfo cancelInfo;
-	private TraflaGuaranteeInfo guaranteeInfo;
+	private GuaranteeInfo guaranteeInfo;
 
 }

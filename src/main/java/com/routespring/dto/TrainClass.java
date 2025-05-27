@@ -1,5 +1,5 @@
 package com.routespring.dto;
 
-public enum TraflaTrainClass {
+public enum TrainClass {
 	Coach, Business, First
 }

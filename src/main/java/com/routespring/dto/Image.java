@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class TraflaImage {
+public class Image {
 
 	private String URL;
 	private String caption;

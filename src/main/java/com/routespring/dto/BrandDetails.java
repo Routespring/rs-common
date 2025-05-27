@@ -16,6 +16,6 @@ public class BrandDetails {
 	private Double priceDiff;
 	private Double serviceFee;
 	private FareAttributes fareAttributes;
-	private TraflaAirBaggage baggageAllowance;
+	private AirBaggage baggageAllowance;
 	private boolean allowForBooking;
 }

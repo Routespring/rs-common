@@ -19,8 +19,8 @@ public class UserTripCarOption {
 	private String description;
 	@JsonProperty
 	private String traflaVehicleCode;
-	private TraflaCarClass carClass;
-	private TraflaCarType carType;
+	private CarClass carClass;
+	private CarType carType;
 
 	@JsonProperty
 	private String passengers;
@@ -71,7 +71,7 @@ public class UserTripCarOption {
 	@JsonProperty
 	private Boolean cardRequired = false;
 	@JsonProperty
-	private TraflaCarStatus status = TraflaCarStatus.NEW;
+	private CarStatus status = CarStatus.NEW;
 	@JsonProperty
 	private String carMake;
 	@JsonProperty

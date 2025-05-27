@@ -43,7 +43,7 @@ public class UserTripHotelOption {
 	@JsonProperty
 	private Date dateOfBooking;
 	@JsonProperty
-	private TraflaRateDetail hotelRateDetail;
+	private RateDetail hotelRateDetail;
 	@JsonProperty
 	private Boolean isApprox = false;
 

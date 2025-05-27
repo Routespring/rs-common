@@ -11,9 +11,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class FlightPolicy {
-	private TraflaFlightClass maxFlightClassAllowed;
+	private FlightClass maxFlightClassAllowed;
 	private boolean considerBasicEconomy = false;
-	private TraflaUpperClassReason upperClassReason;
+	private UpperClassReason upperClassReason;
 	private int flightDurationForUpperClass;
 
 }

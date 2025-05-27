@@ -16,7 +16,7 @@ import lombok.NoArgsConstructor;
 public class HotelResult {
 
 	private String optionSelectionReason;
-	private TraflaImage thumbnailImage;
+	private Image thumbnailImage;
 	private String hotelName;
 	private String address;
 	private String marketingText;

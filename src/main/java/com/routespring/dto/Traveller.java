@@ -41,6 +41,6 @@ public class Traveller {
 	String emergencyContactName;
 	@JsonProperty("relationship")
 	String emergencyContactRelationship;
-	TraflaPassengerType travellerType = TraflaPassengerType.ADULT;
+	PassengerType travellerType = PassengerType.ADULT;
 
 }

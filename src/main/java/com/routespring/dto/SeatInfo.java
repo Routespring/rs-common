@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class TraflaSeatInfo {
+public class SeatInfo {
 
-	private List<TraflaSeatRows> seat;
+	private List<SeatRows> seat;
 	private String passengerType;
 	private String airlineName;
 	private String airlineCode;

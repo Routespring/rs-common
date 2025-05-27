@@ -16,7 +16,7 @@ public class TripSessionBookingData {
 	private List<HotelDetailResult> hotels;
 	private List<CarInfo> cars;
 	private List<FlightResult> flights;
-	List<TraflaSeatInfoSelected> selectedSeat;
+	List<SeatInfoSelected> selectedSeat;
 	private HotelSearchQuery hotelSearchQuery;
 	private CarSearchQuery carSearchQuery;
 	private SearchQuery searchQuery;

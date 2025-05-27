@@ -15,22 +15,22 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CarPolicy extends TravelPolicy {
-	private TraflaCarClass maxCarClassAllowed;
-	private List<TraflaCarType> allowedTypes;
+	private CarClass maxCarClassAllowed;
+	private List<CarType> allowedTypes;
 
-	public TraflaCarClass getMaxCarClassAllowed() {
+	public CarClass getMaxCarClassAllowed() {
 		return maxCarClassAllowed;
 	}
 
-	public void setMaxCarClassAllowed(TraflaCarClass maxCarClassAllowed) {
+	public void setMaxCarClassAllowed(CarClass maxCarClassAllowed) {
 		this.maxCarClassAllowed = maxCarClassAllowed;
 	}
 
-	public List<TraflaCarType> getAllowedTypes() {
+	public List<CarType> getAllowedTypes() {
 		return allowedTypes;
 	}
 
-	public void setAllowedTypes(List<TraflaCarType> allowedTypes) {
+	public void setAllowedTypes(List<CarType> allowedTypes) {
 		this.allowedTypes = allowedTypes;
 	}
 }

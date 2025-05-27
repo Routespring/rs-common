@@ -9,12 +9,12 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class TraflaSeatInfoSelected extends TraflaSeatInfo {
+public class SeatInfoSelected extends SeatInfo {
 	private String seatNumber;
 	private Double price;
 	private Object optionalService;
 	private String passengerName;
-	private TraflaSeatStatusEnum status = TraflaSeatStatusEnum.FLD;
+	private SeatStatusEnum status = SeatStatusEnum.FLD;
 	private String requestedSeatNumber;
 
 }

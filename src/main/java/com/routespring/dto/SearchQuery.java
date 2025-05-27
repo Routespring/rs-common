@@ -38,7 +38,7 @@ public class SearchQuery {
 	@JsonProperty("selected_legs")
 	List<List<FlightHop>> selectedLegs;
 	List<String> travellerEmails;
-	HashMap<TraflaFlightClass, Double> minPrices = new HashMap<>();
+	HashMap<FlightClass, Double> minPrices = new HashMap<>();
 	@JsonInclude(JsonInclude.Include.NON_NULL)
 	List<String> previousSelectedCreditAirline;
 	String previousTransactionid;

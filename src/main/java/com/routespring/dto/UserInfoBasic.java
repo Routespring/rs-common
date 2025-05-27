@@ -16,7 +16,7 @@ public class UserInfoBasic {
 	int departmentId;
 	String dob;
 	String employeeIdentifier;
-	TraflaPassengerType travellerType = TraflaPassengerType.ADULT;
+	PassengerType travellerType = PassengerType.ADULT;
 	String userRole;
 
 }

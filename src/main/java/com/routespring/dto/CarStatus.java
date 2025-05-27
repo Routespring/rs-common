@@ -3,7 +3,7 @@ package com.routespring.dto;
 import lombok.Getter;
 
 @Getter
-public enum TraflaCarStatus {
+public enum CarStatus {
 
 	INIT("INIT"), ERROR("ERROR"), SUCCESS("SUS"), APIERROR("ERR"), NOTAVAILABLE("NA"), PRICECHANGE("PRC"),
 	CONFIRMED("CNF"), CANCELLED("CLD"), NEW("NEW"), PRECONFIRMED("PCNF"), TO_BE_CANCELLED("TBC"), TO_BE_UPDATED("TBU"),
@@ -11,7 +11,7 @@ public enum TraflaCarStatus {
 
 	private String value;
 
-	TraflaCarStatus(String value) {
+	CarStatus(String value) {
 		this.value = value;
 	}
 

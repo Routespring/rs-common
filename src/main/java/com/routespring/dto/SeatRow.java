@@ -5,7 +5,7 @@ import java.util.List;
 import lombok.Data;
 
 @Data
-public class TraflaSeatRow {
+public class SeatRow {
 	private String type;
 	private String seatCode;
 	private String available;

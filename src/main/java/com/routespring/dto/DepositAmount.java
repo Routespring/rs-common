@@ -7,8 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class TraflaAirBaggage {
-	private String numberOfPieceAllowed;
-	private String maxWeightAllowed;
-	private String weightUnit;
+public class DepositAmount {
+	private String amount;
+
 }

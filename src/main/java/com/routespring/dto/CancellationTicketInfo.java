@@ -16,7 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class CancellationTicketInfo extends TraflaTicketInfo {
+public class CancellationTicketInfo extends TicketInfo {
 
 	private Double cancellationFees;
 

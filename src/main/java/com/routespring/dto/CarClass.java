@@ -1,16 +1,16 @@
 package com.routespring.dto;
 
-public enum TraflaCarClass {
+public enum CarClass {
 	Mini, EconomyClass("Economy"), Compact, Economy("Mini, Economy or Compact"), Intermediate(), Standard(), Fullsize(),
 	Premium(), Luxury(), UnknownClass();
 
 	private String text;
 
-	private TraflaCarClass(String text) {
+	private CarClass(String text) {
 		this.text = text;
 	}
 
-	private TraflaCarClass() {
+	private CarClass() {
 		this.text = this.name();
 	}
 

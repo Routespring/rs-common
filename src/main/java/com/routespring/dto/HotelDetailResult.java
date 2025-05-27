@@ -136,7 +136,7 @@ public class HotelDetailResult {
 	@JsonProperty
 	private String roomCode;
 	@JsonProperty
-	private TraflaRateDetail hotelRateDetail;
+	private RateDetail hotelRateDetail;
 
 	@JsonProperty
 	private Double rateUp;
