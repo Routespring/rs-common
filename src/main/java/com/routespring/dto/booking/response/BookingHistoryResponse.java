@@ -1,4 +1,4 @@
-package com.routespring.dto;
+package com.routespring.dto.booking.response;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,6 +9,13 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import com.routespring.dto.Airport;
+import com.routespring.dto.BookedOption;
+import com.routespring.dto.ConfirmTransaction;
+import com.routespring.dto.NameValueDTO;
+import com.routespring.dto.TravellersData;
+import com.routespring.dto.TripDetailBookedOption;
+import com.routespring.dto.UserInfoBasic;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
